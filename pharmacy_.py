@@ -7,12 +7,12 @@ import plotly.graph_objects as go
 # Function to load default datasets
 @st.cache_data
 def load_default_data_1():
-    return pd.read_csv(r'C:\Users\Extreme\OneDrive\Desktop\streamlit  dashboards\pharmacy\salesdaily.csv')
+    return pd.read_csv('salesdaily.csv')
 
 
 @st.cache_data
 def load_default_data_2():
-    return pd.read_csv(r'C:\Users\Extreme\OneDrive\Desktop\streamlit  dashboards\pharmacy analytic\Shelf_Monitoring_and_Cheakout_Efficiency.csv'
+    return pd.read_csv('Shelf_Monitoring_and_Cheakout_Efficiency.csv'
        )
 
 
